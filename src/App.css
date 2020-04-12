@@ -1,2 +1,106 @@
 .App {
+  text-align: center;
+}
+
+.photo {
+  height: 35%;
+  width: 35%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+.grid-item h2 {
+  margin: 10px;
+}
+
+.type-grass {
+  background-color: yellowgreen;
+  border: 1px solid black;
+  padding: 3px;
+  margin: 3px;
+  border-radius: 4px;
+}
+
+.type-poison {
+  background-color: deepskyblue;
+  border: 1px solid black;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 5px;
+}
+
+.type-fire {
+  background-color: salmon;
+  border: 1px solid black;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 5px;
+}
+
+.type-flying {
+  background-color: violet;
+  border: 1px solid black;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 5px;
+}
+
+.type-water {
+  background-color: lightskyblue;
+  border: 1px solid black;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 5px;
+}
+
+.type-bug {
+  background-color: turquoise;
+  border: 1px solid black;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 5px;
+}
+
+.type-normal {
+  background-color: mistyrose;
+  border: 1px solid black;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 5px;
+}
+
+.type-electric {
+  background-color: mistyrose;
+  border: 1px solid black;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 5px;
+}
+
+.type-ground {
+  background-color: goldenrod;
+  border: 1px solid black;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 5px;
+}
+
+.type-fairy {
+  background-color: lime;
+  border: 1px solid black;
+  padding: 4px;
+  margin: 4px;
+  border-radius: 5px;
 }
